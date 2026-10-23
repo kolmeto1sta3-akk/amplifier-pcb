@@ -1,0 +1,23 @@
+# KiCad: временные и резервные файлы
+*.bak
+*.bck
+*.kicad_pcb-bak
+*.kicad_sch-bak
+*-backups/
+*.kicad_prl
+*~
+_autosave-*
+*.tmp
+fp-info-cache
+~*.lck
+\#auto_saved_files#
+*.lck
+
+# Локальная история KiCad 10 (вложенный git-репозиторий)
+.history/
+
+# Результаты скрипта (генерируются заново)
+output/
+
+# macOS
+.DS_Store

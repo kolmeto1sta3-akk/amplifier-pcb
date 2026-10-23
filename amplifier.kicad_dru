@@ -1,0 +1,17 @@
+(version 1)
+
+# Нормы завода Резонит (базовый уровень, фольга 35 мкм)
+(rule "Rezonit: поясок THT-площадки >= 0.2"
+	(condition "A.Type == 'Pad' && A.Pad_Type == 'Through-hole'")
+	(constraint annular_width (min 0.2mm)))
+
+(rule "Rezonit: поясок VIA >= 0.15"
+	(condition "A.Type == 'Via'")
+	(constraint annular_width (min 0.15mm)))
+
+(rule "Rezonit: медь от края платы >= 0.25 (с запасом 0.5)"
+	(constraint edge_clearance (min 0.5mm)))
+
+(rule "Rezonit: шелкография - линия >= 0.15"
+	(layer "?.Silkscreen")
+	(constraint text_thickness (min 0.15mm)))
