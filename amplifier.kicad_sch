@@ -3103,7 +3103,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Part_Number" ""
+		(property "Manufacturer_Part_Number" "CL21B123KBANNNC"
 			(at 71.12 132.08 0)
 			(hide yes)
 			(show_name no)
@@ -4344,7 +4344,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Part_Number" ""
+		(property "Manufacturer_Part_Number" "C0805C124K1RACTU"
 			(at 71.12 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -4693,7 +4693,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Part_Number" ""
+		(property "Manufacturer_Part_Number" "CL21B123KBANNNC"
 			(at 71.12 101.6 0)
 			(hide yes)
 			(show_name no)
