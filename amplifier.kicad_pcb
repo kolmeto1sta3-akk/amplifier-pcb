@@ -7,6 +7,11 @@
 		(legacy_teardrops no)
 	)
 	(paper "A4")
+	(title_block
+		(company "МГТУ им. Н.Э. Баумана")
+		(comment 1 "БИГЕ.941315.001 Э3")
+		(comment 2 "Акканен А.М.")
+	)
 	(layers
 		(0 "F.Cu" signal)
 		(2 "B.Cu" signal)
