@@ -885,9 +885,33 @@
 				)
 			)
 			(symbol "LT1222_0_1"
+				(polyline
+					(pts
+						(xy -2.54 5.08) (xy -2.54 -5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 5.08) (xy 2.54 -5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
 				(rectangle
-					(start -3.81 5.08)
-					(end 3.81 -5.08)
+					(start -5.08 5.08)
+					(end 5.08 -5.08)
 					(stroke
 						(width 0)
 						(type default)
@@ -908,7 +932,7 @@
 				)
 				(pin input inverted
 					(at -7.62 0 0)
-					(length 3.81)
+					(length 2.54)
 					(name "-IN"
 						(effects
 							(font
@@ -926,7 +950,7 @@
 				)
 				(pin input line
 					(at -7.62 3.81 0)
-					(length 3.81)
+					(length 2.54)
 					(name "+IN"
 						(effects
 							(font
@@ -944,7 +968,7 @@
 				)
 				(pin power_in line
 					(at -7.62 -3.81 0)
-					(length 3.81)
+					(length 2.54)
 					(name "V-"
 						(effects
 							(font
@@ -962,7 +986,7 @@
 				)
 				(pin output line
 					(at 7.62 3.81 180)
-					(length 3.81)
+					(length 2.54)
 					(name "OUT"
 						(effects
 							(font
@@ -980,7 +1004,7 @@
 				)
 				(pin power_in line
 					(at 7.62 -3.81 180)
-					(length 3.81)
+					(length 2.54)
 					(name "V+"
 						(effects
 							(font
@@ -1070,9 +1094,33 @@
 				)
 			)
 			(symbol "LT6202_0_1"
+				(polyline
+					(pts
+						(xy -2.54 5.08) (xy -2.54 -5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 5.08) (xy 2.54 -5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
 				(rectangle
-					(start -3.81 5.08)
-					(end 3.81 -5.08)
+					(start -5.08 5.08)
+					(end 5.08 -5.08)
 					(stroke
 						(width 0)
 						(type default)
@@ -1093,7 +1141,7 @@
 				)
 				(pin output line
 					(at 7.62 3.81 180)
-					(length 3.81)
+					(length 2.54)
 					(name "OUT"
 						(effects
 							(font
@@ -1111,7 +1159,7 @@
 				)
 				(pin power_in line
 					(at -7.62 -3.81 0)
-					(length 3.81)
+					(length 2.54)
 					(name "V-"
 						(effects
 							(font
@@ -1129,7 +1177,7 @@
 				)
 				(pin input line
 					(at -7.62 3.81 0)
-					(length 3.81)
+					(length 2.54)
 					(name "+IN"
 						(effects
 							(font
@@ -1147,7 +1195,7 @@
 				)
 				(pin input inverted
 					(at -7.62 0 0)
-					(length 3.81)
+					(length 2.54)
 					(name "-IN"
 						(effects
 							(font
@@ -1165,7 +1213,7 @@
 				)
 				(pin power_in line
 					(at 7.62 -3.81 180)
-					(length 3.81)
+					(length 2.54)
 					(name "V+"
 						(effects
 							(font
